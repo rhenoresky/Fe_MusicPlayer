@@ -4,5 +4,11 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     'nuxt-icon',
-  ]
+    '@pinia/nuxt',
+    ['@nuxtjs/google-fonts', {
+      families: {
+        Ubuntu: true,
+      }
+    }],
+  ],
 })
